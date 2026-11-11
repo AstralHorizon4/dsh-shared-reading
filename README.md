@@ -4,6 +4,16 @@
 
 ![结构示意（不是截图）：左：书架（封面/进度）；中：阅读页；右：就着这段聊](assets/panel.svg)
 
+## 安装
+
+```bash
+dsh plugin --profile <你的 profile> add "github:AstralHorizon4/dsh-shared-reading"
+```
+
+装完重启应用，侧栏会出现书本图标。插件是纯 JS，没有构建步骤；本地开发时直接 `add` 这个目录即可（目录里的改动下次加载生效）。
+
+数据在 `<DSH_HOME>/shared-reading/`（默认 `~/.dsh/shared-reading/`）。
+
 ## 用起来
 
 1. 刷新一下 DSH 页面，左侧边栏会多一个书本图标（在「插件」「定时」下面）；点开就是占满主区的「共读」页。
