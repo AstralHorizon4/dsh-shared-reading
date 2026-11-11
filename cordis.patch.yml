@@ -1,0 +1,6 @@
+# 共读：一行 Host 插件 + 一个 Client 模块。
+# 重装同名包不会替换已加载的 ESM 模块；改完 Host 侧代码要重启应用。
+
+- insert:
+    - id: shared-reading
+      name: dsh-shared-reading

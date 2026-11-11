@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 500" width="980" height="500" role="img" aria-label="共读：书架、阅读页和对话面板的结构示意">
+  <rect width="980" height="500" fill="#0f1115"/>
+
+  <!-- shelf -->
+  <rect x="16" y="16" width="288" height="468" rx="10" fill="#141821"/>
+  <text x="36" y="58" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#eef0f4">全部</text>
+  <text x="36" y="78" font-family="system-ui, sans-serif" font-size="10" fill="#7d8598">4 本</text>
+
+  <g>
+    <rect x="34" y="98" width="86" height="129" rx="4" fill="#2f4858"/>
+    <rect x="34" y="98" width="86" height="129" rx="4" fill="url(#g1)" opacity=".55"/>
+    <text x="42" y="196" font-family="system-ui, sans-serif" font-size="8" fill="#f6f2ea">示例书 A</text>
+    <rect x="34" y="236" width="86" height="3" rx="1.5" fill="#232936"/>
+    <rect x="34" y="236" width="60" height="3" rx="1.5" fill="#8b93a7"/>
+    <text x="34" y="256" font-family="system-ui, sans-serif" font-size="9" fill="#7d8598">72%</text>
+
+    <rect x="134" y="98" width="86" height="129" rx="4" fill="#6d3b2f"/>
+    <rect x="134" y="98" width="86" height="129" rx="4" fill="url(#g2)" opacity=".5"/>
+    <text x="142" y="196" font-family="system-ui, sans-serif" font-size="8" fill="#f6f2ea">示例书 B</text>
+    <rect x="134" y="236" width="86" height="3" rx="1.5" fill="#232936"/>
+    <rect x="134" y="236" width="34" height="3" rx="1.5" fill="#8b93a7"/>
+    <text x="134" y="256" font-family="system-ui, sans-serif" font-size="9" fill="#7d8598">38%</text>
+
+    <rect x="234" y="98" width="52" height="78" rx="4" fill="#232936"/>
+    <circle cx="260" cy="137" r="9" stroke="#4d566b" stroke-width="1.4" fill="none"/>
+    <path d="M255 137h10M260 132v10" stroke="#4d566b" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- reader -->
+  <rect x="316" y="16" width="392" height="468" rx="10" fill="#141821"/>
+  <rect x="316" y="16" width="392" height="40" rx="10" fill="#171b24"/>
+  <text x="334" y="42" font-family="system-ui, sans-serif" font-size="11" fill="#8b93a7">‹ 书架</text>
+  <text x="470" y="42" font-family="system-ui, sans-serif" font-size="11" fill="#c9cede">‹  8. 示例章节标题  ›</text>
+  <text x="664" y="42" font-family="system-ui, sans-serif" font-size="10" fill="#7d8598">8 / 19</text>
+  <line x1="316" y1="56" x2="708" y2="56" stroke="#20242e"/>
+
+  <text x="366" y="96" font-family="Georgia, 'Songti SC', serif" font-size="13" font-weight="600" fill="#e9e6df">示例章节标题</text>
+  <g font-family="Georgia, 'Songti SC', serif" font-size="10" fill="#b9b3a8">
+    <text x="366" y="128">示范文字：这一段只用于示意正文排版，</text>
+    <text x="366" y="146">不包含任何真实书籍内容。行距、段距和</text>
+    <text x="366" y="164">每行字数都与实际阅读时保持一致，方便</text>
+    <text x="366" y="182">评估版面效果。</text>
+    <text x="366" y="212">第二段同样是排版占位：这里展示划词高亮</text>
+    <text x="366" y="230">的起始位置，以及右侧对话面板如何引用</text>
+    <text x="366" y="248">选中的文字。换行与缩进和真实正文一致。</text>
+    <text x="366" y="278">（占位文字，不含真实书摘，</text>
+    <text x="366" y="296">也不暴露读者正在读什么书。）</text>
+  </g>
+  <rect x="356" y="120" width="300" height="72" rx="3" fill="#3b5bdb" opacity=".16"/>
+
+  <!-- chat -->
+  <rect x="724" y="16" width="240" height="468" rx="10" fill="#171b24"/>
+  <text x="740" y="42" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#8b93a7">就着这段聊</text>
+  <text x="902" y="42" font-family="system-ui, sans-serif" font-size="9" fill="#6f7a91">清空</text>
+  <line x1="724" y1="56" x2="964" y2="56" stroke="#20242e"/>
+
+  <rect x="812" y="70" width="136" height="26" rx="10" fill="#2a3140"/>
+  <text x="824" y="87" font-family="system-ui, sans-serif" font-size="9" fill="#cfd4e0">这句话什么意思？</text>
+
+  <rect x="740" y="106" width="208" height="72" rx="10" fill="#202633"/>
+  <g font-family="system-ui, sans-serif" font-size="9" fill="#b9c0cf">
+    <text x="752" y="126">从这段示范文字能确认的：这里只是</text>
+    <text x="752" y="141">排版占位，不含真实书摘，也不会暴露</text>
+    <text x="752" y="156">你正在读什么书。</text>
+    <text x="752" y="171" fill="#6f7a91">▍</text>
+  </g>
+
+  <rect x="724" y="392" width="240" height="92" fill="#141821"/>
+  <rect x="738" y="406" width="212" height="46" rx="10" fill="#1b202b" stroke="#2c3342"/>
+  <text x="750" y="424" font-family="system-ui, sans-serif" font-size="9" fill="#6f7a91">想问什么？Enter 发送</text>
+  <rect x="884" y="466" width="66" height="20" rx="6" fill="#3b5bdb"/>
+  <text x="902" y="480" font-family="system-ui, sans-serif" font-size="9" fill="#fff">发送</text>
+
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33658a"/><stop offset="1" stop-color="#2f4858"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8603f"/><stop offset="1" stop-color="#6d3b2f"/>
+    </linearGradient>
+  </defs>
+</svg>
