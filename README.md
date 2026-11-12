@@ -14,7 +14,9 @@
 
 **共读**（`dsh-shared-reading`）是 DSH 的读书插件：导入 EPUB / TXT / Markdown / HTML，分页阅读，划一句话就问；回答由真 agent 流式产出，讨论与进度全部留在本地。
 
-![结构示意（不是截图）：左：书架（封面/进度）；中：阅读页；右：就着这段聊](assets/panel.svg)
+![阅读页：左边正文，右边就着划出的那句话聊](assets/screenshot-2.png)
+
+![书架：按封面铺格，带进度与章数](assets/screenshot-1.png)
 
 | 能力 | 你给它什么 | 它给你什么 |
 | --- | --- | --- |

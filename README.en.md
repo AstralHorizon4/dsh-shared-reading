@@ -14,7 +14,9 @@
 
 **Shared Reading** (`dsh-shared-reading`) is a reading plugin for DSH: import EPUB / TXT / Markdown / HTML, read them page by page, highlight one sentence and ask about it. Answers stream from a real agent, and the discussion plus your progress stay on your machine.
 
-![Structural mockup, not a screenshot: shelf (covers/progress) on the left, reader in the middle, conversation about the highlighted passage on the right](assets/panel.svg)
+![Reading page: the text on the left, the conversation about your highlight on the right](assets/screenshot-2.png)
+
+![Shelf: covers laid out in a grid with progress and chapter counts](assets/screenshot-1.png)
 
 | Capability | What you give it | What you get |
 | --- | --- | --- |
