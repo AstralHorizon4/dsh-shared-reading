@@ -49,6 +49,8 @@ Data lives in `<DSH_HOME>/shared-reading/` (default `~/.dsh/shared-reading/`).
 
 1. Refresh DSH and a book icon appears in the left sidebar (below Plugins and Schedules). Open it and the reading panel takes over the main area.
 2. Pick a file under **Import book**. EPUBs bring their cover along, so the shelf shows the real jacket; TXT/MD/HTML get a colour-block cover derived from the title. Importing the same file twice does not create a duplicate: the plugin fingerprints each book from its chapter titles plus body text (SHA-256) and jumps to the existing one instead ("already on the shelf"). The same book as EPUB and as TXT splits differently, so it counts as two books.
+
+   To see it working first, import [`demo/demo-book.epub`](demo/demo-book.epub) from this repository: a made-up three-chapter book whose cover and text are both generated here, with no real book involved.
 3. The shelf lays covers out in a 2:3 grid with progress and chapter count underneath, most recently read first — the current book is always at the front. Hover a cover for the `✕` delete button; `Continue reading …` returns to the exact page you left.
 4. Stop where you want, then drag across a sentence with the mouse — a quoted-selection bar appears at the bottom right. Type your question and press Enter; the answer streams in character by character, and the question, quote, and answer are stored with that book.
 
